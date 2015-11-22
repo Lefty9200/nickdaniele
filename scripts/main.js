@@ -4,11 +4,11 @@ var template = function(text) {
 
 /* main */
 var main = function() {
-	
-	// pending and completed
+  
+  // pending and completed
   
 
-	// add task to list
+  // add task to list
   $('form').submit(function() {
   var text = $('#todo').val();
   if (text !== "") {

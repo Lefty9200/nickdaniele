@@ -1,0 +1,3 @@
+- set up function to react when list item is clicked
+- add selected class to clicked item
+- remove selected class from all other items

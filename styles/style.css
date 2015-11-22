@@ -21,15 +21,14 @@ h1 {
 }
 
 /* Top Menu */
-.top-menu {
-	background: rgba(228,228,228,.95);
-	box-shadow: 0 2px 2px rgba(0,0,0.15);
-	width: 100%;
-	text-align: center;
+.menu {
+  box-shadow: 0 2px 2px rgba(0,0,0.15);
+  width: 100%;
+  text-align: center;
 }
 
-.top-menu button.btn {
-	background: rgba(0,84,166,0.95);
+.menu .btn {
+  background: rgba(0,84,166,0.95);
   border: none;
   border-radius: 0;
   box-shadow: 0 2px 2px rgba(0,0,0,.15);
@@ -41,10 +40,23 @@ h1 {
   margin: 15px 7.5px;
 }
 
-.top-menu button.selected {
+.menu a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.menu button.active {
   background: rgba(0,129,255,0.95);
 }
 
+.top {
+  background: rgba(228, 228, 228, .95);
+}
+
+.middle {
+  background: rgba(255,255,255,0.95);
+}
 
 /* list */
 .main {
@@ -126,7 +138,7 @@ form.form {
   width: 60px;
 }
 
-.form button:hover {
+.form button:hover{
   background: rgba(0,129,255,0.95);
   cursor: pointer;
 }
