@@ -13,6 +13,7 @@
 - toggle display of all tasks or tasks for specific projects
 - toggle display of all priority tasks or tasks of a specific priority
 - set due dates
+- completion folder
 
 // Milestones
 - creat user interface ie html css
